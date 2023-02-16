@@ -1,0 +1,29 @@
+.bgnavbar {
+    background-color: #03989e;
+}
+
+@media screen and (min-width: 1280px){
+.navbg {
+    margin-left: auto;
+    background-color: #03989e;
+    border: none;
+    text-decoration: none;
+    
+}  
+
+
+
+}
+.navlink:hover {
+    background-color: rgb(243, 149, 41);
+    border-radius: 0px;
+}
+
+.navbrand {
+    background-color: rgb(243, 149, 41);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
