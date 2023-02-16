@@ -5,7 +5,7 @@ export default function Nf() {
         <div>
         <Navbar />
         <div>
-            404 Not Found
+            404 Not Found bray
         </div>
         </div>
     )
