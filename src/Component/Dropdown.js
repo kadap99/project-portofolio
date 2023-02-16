@@ -1,6 +1,8 @@
 import { Container, Row, Col, Accordion } from "react-bootstrap";
-
-
+import Carousel from './Carousel'
+import gambar from '../assets/2.png'
+import gambar2 from '../assets/service-hp.jpg'
+import gambar3 from '../assets/service-pc.jpg'
 
 function Dropdown() {
     return (
@@ -13,25 +15,13 @@ function Dropdown() {
                         <Accordion.Item eventKey="0">
                           <Accordion.Header className='accbg'>Service Electronika</Accordion.Header>
                           <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                          <Carousel image1={gambar} image2={gambar2} image3={gambar3} judul1={'tes'}/>
                           </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                          <Accordion.Header>Accordion Item #2</Accordion.Header>
+                          <Accordion.Header>Programing (html, css, javascript)</Accordion.Header>
                           <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                          <Carousel />
                           </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
