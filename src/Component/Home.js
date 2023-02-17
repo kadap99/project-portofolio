@@ -45,7 +45,7 @@ function Home() {
       <div className='bg shadow' >
       <Container>
         <Row>
-          <Col className='col-lg-6 my-1  text-center text-sm-center text-md-start'>
+          <Col className='col-lg-6 my-3  text-center text-sm-center text-md-start'>
             <h1 className='fw-bold shadow d-inline-block rounded'>Selamat datang!</h1>
             <h2>Ini adalah website Portofolio saya
               <br></br>(M. HELMAN ANSYARI)</h2>
